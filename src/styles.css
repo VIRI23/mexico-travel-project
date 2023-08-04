@@ -176,8 +176,8 @@ main h2 {
   }
   footer {
     background-image: linear-gradient(
-      rgba(73, 163, 91, 0.5),
-      rgba(73, 163, 91 0.5)
+      rgba(73, 163, 91, 0.9),
+      rgba(73, 163, 91 0.9)
     ),
       url("../images/mexicocity-footer.png");
   
