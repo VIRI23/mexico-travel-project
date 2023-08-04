@@ -7,24 +7,29 @@ body {
     max-width: 1400px;
     margin: 0 auto;
   }
+  
   .text-center {
     text-align: center;
   }
+  
   .grid {
     display: grid;
     grid-gap: 64px;
   }
   
   .img-responsive {
-    max-width: 100%;
+    width: 100%;
+    display: block;
   }
   
   .grid-2-columns {
     grid-template-columns: 1fr 1fr;
   }
+  
   .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  
   .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
   }
@@ -41,9 +46,11 @@ body {
     background: white;
     margin: 30px 0;
   }
+  
   .card-header.grid {
     grid-gap: 0;
   }
+  
   .card-body {
     padding: 30px;
   }
@@ -74,6 +81,7 @@ body {
   section.secondary {
     background: #f8f8f8;
   }
+  
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/mexico.png");
@@ -111,24 +119,26 @@ header {
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
-    color: ##15ce4da4;
+    color: ##49a35b;
     padding: 16px 32px;
-    margin-top: 32px;
-    display: inline-block;
-    letter-spacing: 3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background: white;
-  }
-  main {
-    background-color: white;
-  }
-  main h2 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    letter-spacing: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+}
+
+main {
+  background-color: white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
     color: #49a35b;
     opacity: 0.3;
     text-transform: uppercase;
@@ -145,7 +155,7 @@ header {
     font-weight: 700;
     font-size: 24px;
     line-height: 1;
-    color: #272044;
+    color: #49a35b;
     margin: 0;
   }
   
@@ -154,7 +164,7 @@ header {
     font-size: 13px;
     margin: 0;
     line-height: 1;
-    color: #272044;
+    color: ##49a35b;
   }
   main p {
     font-style: normal;
@@ -229,6 +239,7 @@ header {
     section {
       padding: 30px;
     }
+  
     .card-header img {
       display: none;
     }
