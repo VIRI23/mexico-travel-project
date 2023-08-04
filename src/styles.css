@@ -1,6 +1,6 @@
 body {
     font-family: 'Noto Serif Vithkuqi', serif;
-    background: ##49a35b;
+    background: #49a35b;
   }
 
   .container {
@@ -28,11 +28,22 @@ body {
   .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
   }
+  .embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+  }
+  
+  .instagram-embeds {
+    margin: 30px 0;
+  }
+  
   .card {
     background: white;
     margin: 30px 0;
   }
-  
+  .card-header.grid {
+    grid-gap: 0;
+  }
   .card-body {
     padding: 30px;
   }
@@ -51,7 +62,7 @@ body {
     letter-spacing: 3px;
     text-transform: uppercase;
     padding: 16px;
-    background-color: #462cb3;
+    background-color: #49a35b;
     text-decoration: none;
   }
   section {
@@ -217,5 +228,12 @@ header {
   
     section {
       padding: 30px;
+    }
+    .card-header img {
+      display: none;
+    }
+  
+    .embed {
+      aspect-ratio: 16 / 9;
     }
   }
